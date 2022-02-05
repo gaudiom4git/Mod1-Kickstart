@@ -33,11 +33,10 @@ However, if you choose food as parent category, there are much more failed than 
 
 ### Analysis of Outcomes Based on Goals
 
-There were 1047 projects for the plays subcategory where the outcomes were either successful, failed or cancelled.  Live was
-not part of the analysis.    
+There were 1047 projects for the plays subcategory where the outcomes were either successful, failed or cancelled.  
 
-There was a range missing in the Goal column.  There were 4 plays where the goal was exactly $50,000.  But, the goal ranges didn't
-have a bucket where goal > OR = $50,000.
+By percentage successful, goals with less than $1000 were most successful.  But, there were many more projects with a Goal from $1000 to $4999.
+By percentage failure, we can see that 100% failed if the goal was between $45000 and $49999.  
 
 Plays never had a cancelled outcome, they were either successful, failed or live.  You can see all 0 in Number Cancelled Column.
 
@@ -52,14 +51,15 @@ choose sort Z-A.
 
 I had more trouble in Deliverable 2.  There were so many manual steps here.  I was copying VLOOKUPs down and across the 
 columns and then manually went in an adjusted.  I think I should have used the trick to "name" the data selection for 
-each, GOAL column and OUTCOME column so that I could simply copy and paste with less error.  
+GOAL column and OUTCOME column, so that I could simply copy and paste with less error.  
 
 When I initially worked on this challenge, the last range was labelled "Greater than 50000".  It threw me off because the
 total number of failures for plays in the kickstarter tab did not match the sum of the number failed in the table (353 vs 349 respectively).  
 4 of them were exactly $50k which represents the difference.
 
-When I rechecked my work on Friday 2/4, I noticed that someone had changed the challenge in Deliverable 2...  
+When I rechecked my work on Friday 2/4, I noticed that Deliverable 2 had changed slightly...  
 The last range was changed from "Greater than 50000" to "50000 or More".   So, I redid the last range to match and totals matched.
+Note:  Picture above was from prior range w/Greater than 50000.   Revised range (50000 or More)is bottom picture.
 
 ## Results
 
@@ -75,9 +75,10 @@ The last range was changed from "Greater than 50000" to "50000 or More".   So, I
 (1) Goals less than 5000 dollars have the highest success rate as the percentage successful is above 72%.  We can also see that goals
 between 35000 and 44999 also have a high number of successful outcomes vs. failed outcomes.  But, see limitations below.
 
-(2) The highest failure and lowest success seems to occur when the goal is 45000 to 49999.  
+(2) The highest failure and lowest success seems to occur when the goal is 45000 to 49999.  But, there was only 1 project in this range.  
+You can also see that there were alot less total projects with a goal range above $15000.  Some of those ranges have the highest failure percentage.
 
-![Outcomes vs Goals Plays](https://github.com/gaudiom4git/Mod1-Kickstart/blob/main/resources/Outcomes_vs_GoalsRevisedRange.png)
+![Outcomes vs Goals Plays](https://github.com/gaudiom4git/Mod1-Kickstart/blob/main/resources/Outcomes_vs_Goals_RevisedRange.png)
 
 - What are some limitations of this dataset?
 
