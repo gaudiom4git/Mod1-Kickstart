@@ -77,7 +77,7 @@ between 35000 and 44999 also have a high number of successful outcomes vs. faile
 
 (2) The highest failure and lowest success seems to occur when the goal is 45000 to 49999.  
 
-![Outcomes vs Goals Plays](https://github.com/gaudiom4git/Mod1-Kickstart/blob/main/resources/Outcomes_vs_GoalsPlays.png)
+![Outcomes vs Goals Plays](https://github.com/gaudiom4git/Mod1-Kickstart/blob/main/resources/Outcomes_vs_GoalsRevisedRange.png)
 
 - What are some limitations of this dataset?
 
