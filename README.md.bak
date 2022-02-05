@@ -20,16 +20,16 @@ There were a total number of 4114 Crowdfunding events.
 For all categories, the total number of successful outcomes was always higher than the failures except in December.  
 Number of cancelled outcomes were significantly lower than successful and failed outcomes.
 
-![Outcomes Based on Launch Date All Categories](https://github.com/gaudiom4git/Mod1-Kickstart/blob/main/resources/OutcomesBasedonLaunchDateALL.png)
+![Outcomes Based on Launch Date All Categories](https://github.com/gaudiom4git/kickstarter-analysis/resources/blob/main/OutcomesBasedonLaunchDateALL.png)
 
-If you choose theater as parent category, there are signifcantly more successful outcomes than failed which is more consistent with ALL outcomes.  There were 1369 projects in the theater parent cateogry where the outcome was 
-successful, failed or cancelled.  Live was not included in the analysis.  
+If you choose theater as parent category, there are signifcantly more successful outcomes than failed which is more consistent with ALL outcomes.  There were 1369 projects in the theater parent cateogry where the outcome was successful, failed or cancelled.  
+Live was not included in the analysis.  
 
-![Outcomes Based on Launch Date Theater](https://github.com/gaudiom4git/Mod1-Kickstart/blob/main/resources/OutcomesBasedonLaunchDateTheater.png)
+![Outcomes Based on Launch Date Theater](https://github.com/gaudiom4git/kickstarter-analysis/resources/blob/main/OutcomesBasedonLaunchDateTheater.png)
 
 However, if you choose food as parent category, there are much more failed than succesful. 
 
-![Outcomes Based on Launch Date Food](https://github.com/gaudiom4git/Mod1-Kickstart/blob/main/resources/OutcomesBasedonLaunchDateFood.png)
+![Outcomes Based on Launch Date Food](https://github.com/gaudiom4git/kickstarter-analysis/resources/blob/main/OutcomesBasedonLaunchDateFood.png)
 
 ### Analysis of Outcomes Based on Goals
 
@@ -41,7 +41,7 @@ have a bucket where goal > OR = $50,000.
 
 Plays never had a cancelled outcome, they were either successful, failed or live.  You can see all 0 in Number Cancelled Column.
 
-![Outcomes vs Goals Plays](https://github.com/gaudiom4git/Mod1-Kickstart/blob/main/resources/Outcomes_vs_GoalsPlays.png)
+![Outcomes vs Goals Plays](https://github.com/gaudiom4git/kickstarter-analysis/resources/blob/main/Outcomes_vs_GoalsPlays.png)
 
 ### Challenges and Difficulties Encountered
 
@@ -54,12 +54,10 @@ I had more trouble in Deliverable 2.  There were so many manual steps here.  I w
 columns and then manually went in an adjusted.  I think I should have used the trick to "name" the data selection for 
 each, GOAL column and OUTCOME column so that I could simply copy and paste with less error.  
 
-When I initially worked on this challenge, the last range was labelled "Greater than 50000".  It threw me off because the
-total number of failures for plays in the kickstarter tab did not match the sum of the number failed in the table (353 vs 349 respectively).  
-4 of them were exactly $50k which represents the difference.
-
+The number of failed goals was a challenge as the total number of failures for plays in the kickstarter tab did not match
+the sum of the number failed in the table (353 vs 349 respectively).  4 of them were exactly $50k which represents the difference.
 When I rechecked my work on Friday 2/4, I noticed that someone had changed the challenge in Deliverable 2...  
-The last range was changed from "Greater than 50000" to "50000 or More".   So, I redid the last range to match and totals matched.
+The last range was changed to "50000 or More" instead of "Greater than 50000".   So, I redid the last range to match and totals matched.
 
 ## Results
 
@@ -68,7 +66,7 @@ The last range was changed from "Greater than 50000" to "50000 or More".   So, I
 (1) For parent category theater, success and failure seem to follow a similar outcome trend.   
 (2) Highest success and highest failure occur in May if you choose Theater as the parent category.
 
-![Theater_Outcomes_vs_Launch Graph](https://github.com/gaudiom4git/Mod1-Kickstart/blob/main/resources/Theater_Outcomes_vs_Launch.png)
+![Theater_Outcomes_vs_Launch Graph](https://github.com/gaudiom4git/kickstarter-analysis/resourcs/blob/main/Theater_Outcomes_vs_Launch.png)
 
 - What can you conclude about the Outcomes based on Goals?
 
@@ -77,7 +75,7 @@ between 35000 and 44999 also have a high number of successful outcomes vs. faile
 
 (2) The highest failure and lowest success seems to occur when the goal is 45000 to 49999.  
 
-![Outcomes vs Goals Plays](https://github.com/gaudiom4git/Mod1-Kickstart/blob/main/resources/Outcomes_vs_GoalsPlays.png)
+![Outcomes vs Goals Plays](https://github.com/gaudiom4git/kickstarter-analysis/resources/blob/main/Outcomes_vs_GoalsPlays.png)
 
 - What are some limitations of this dataset?
 
